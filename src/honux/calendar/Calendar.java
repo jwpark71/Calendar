@@ -9,6 +9,14 @@ public class Calendar {
 		return MAX_DAYS[month - 1];
 	}
 	
+	/**
+	 * - 월을 입력하면 해당월의 달력을 출력한다.
+	 * - 달력은 모양을 1단계에서 작성한 모양으로 만든다.
+	 * - 1일은 일요일로 정해도 무방하다.
+	 * - -1을 입력받기 전까지 반복 입력받는다.
+	 * - 프롬프트를 출력한다.
+	 */
+	
 	public void printSampleCalendar() {
 		System.out.println("  일    월    화    수    목    금    토");
 		System.out.println("--------------------");
